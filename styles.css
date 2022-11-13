@@ -1,11 +1,6 @@
-/* font-family: 'Overlock', cursive; */
-
-/* :root { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  :root { font-family: 'Inter var', sans-serif; }
-} */
-
-/* font-family: 'Nunito Sans', sans-serif; */
+#main-container{
+  height: "100vh";
+}
 .outer{
     background-color: #083E5A;
   }
@@ -29,7 +24,7 @@ h1{
 }
 .discord{
   font-family: 'Inter', sans-serif;
-  font-size: 9px;
+  font-size: 15px;
 }
 .credit{
   font-size: 11px;
@@ -40,4 +35,26 @@ h1{
 }
 .develop{
   font-family: 'Inter', sans-serif;
+}
+@media (min-width: 640px) {
+  .credit{
+    font-size: 18px;
+  }
+  .note{
+    font-size: 17px;
+  }
+  .discord{
+    font-size: 15px;
+  }
+}
+@media (min-width: 1250px) {
+  .credit{
+    font-size: 11px;
+  }
+  .note{
+    font-size: 11px;
+  }
+  .discord{
+    font-size: 10px;
+  }
 }
