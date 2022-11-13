@@ -1,59 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
     <!-- Inter font -->
-    <link rel="preconnect" href="https://rsms.me/">
-    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <!-- Overlock font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Merriweather Sans font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@567&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@567&display=swap"
+      rel="stylesheet"
+    />
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class="md:bg-zinc-800 ">
-        <div class="mx-auto mt-6 mb-1 pb-5 h-fit max-h-fit outer sm:w-7/12 md:w-6/12 xl:w-4/12">
-            <img class="mx-auto w-2/5" src="images/cd-removebg-preview.png" alt="">
-            <div class="bg-white mx-auto inner w-9/12 pt-6">
-                <h1 class="text-center text-xl font-semibold ">VERIFY YOUR LOGIN</h1>
-                <p class="leading-5 mt-3 text-center text-xs">Hello, *USER*!<br>
-                    Below is your one-time passcode
-                </p>
-                <div class="ol my-4 mx-auto w-fit px-5 rounded bg-orange-400 text-white">*12345*</div>
-                <img class="mx-auto w-5/6" src="images/centerwash.svg" alt="">
-                <p class="w-fit ol text-center text-sm relative bottom-44 left-56 ml-4 text-white">If you didn’t request <br> this, you can ignore <br> this email or let us <br> know.
-                    <br><br>
-                    Thanks! <br>
-                    IEEE-CS team</p>
-                <div class="max-h-0">
-                    <p class=" text-center relative bottom-28 note relative">
-                        Note: The OTP will expire in 15 minutes and can only be used once.
-                    </p>
-                    <p class="discord text-center relative bottom-28 mt-2  leading-5">Please connect with us on discord server given below. <br> *Link*</p>
-                    
-                    <p class=" credit text-right relative bottom-28 right-3">
-                        by <a class="underline" href="https://www.linkedin.com/in/nitish-narayanan-5b8202224/">Nitish Narayanan</a> and 
-                        <a class="underline" href="https://www.linkedin.com/in/jahnavi-gundakaram-43074a1b5/">Jahnavi Gundakaram</a>
-                    </p>
-                </div>
-                
-            </div>
-            
-            <div class="w-fit mt-2 h-fit mx-auto">
-                <a href="https://www.linkedin.com/company/ieee-cs-vit/?originalSubdomain=in"><img class="inline mx-2 w-8" src="images/linkedin.svg" alt=""></a>
-                <a href="https://www.instagram.com/ieeecs_vit/"><img class="inline mx-2 w-8" src="images/insta.svg" alt=""></a>
-            </div>
-            <p class="develop mx-auto w-fit my-2 text-white text-sm">Developed by <span class="ieeecs"> IEEE Computer Society</span></p>
-            <a href="https://www.ieeecsvit.com/"><img class="w-28 mx-auto" src="images/ieeecs.png" alt=""></a>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="md:bg-zinc-800">
+    <div
+      id="main-container"
+      class="mx-auto mt-6 mb-1 pb-5 h-fit max-h-fit outer w-full lg:w-6/12 xl:w-4/12 2xl:w-4/12"
+    >
+      <img class="mx-auto w-2/5" src="images/cd-removebg-preview.png" alt="" />
+      <div class="bg-white mx-auto inner w-9/12 pt-6">
+        <h1 class="text-center text-xl font-semibold">VERIFY YOUR LOGIN</h1>
+        <p class="leading-5 mt-3 text-center text-xs">
+          Hello, *USER*!<br />
+          Below is your one-time passcode
+        </p>
+        <div
+          class="ol my-4 mx-auto w-fit px-5 rounded bg-orange-400 text-white"
+        >
+          *12345*
         </div>
-    
-</body>
+        <img class="mx-auto w-5/6" src="images/centerwash.svg" alt="" />
+        <p
+          class="w-fit ol text-center text-sm relative bottom-72 left-2/3 lg:bottom-48 lg:left-72 xl:bottom-44 xl:left-48 ml-4 text-white"
+        >
+          If you didn’t request <br />
+          this, you can ignore <br />
+          this email or let us <br />
+          know. <br /><br />
+          Thanks! <br />
+          IEEE-CS team
+        </p>
+
+        <div class="max-h-0">
+          <p class="text-center relative bottom-28 note relative">
+            Note: The OTP will expire in 15 minutes and can only be used once.
+          </p>
+          <p class="discord text-center relative bottom-28 mt-2 leading-5">
+            Please connect with us on discord server given below. <br />
+            *Link*
+          </p>
+
+          <p class="credit text-right relative bottom-28 right-3">
+            by
+            <a
+              class="underline"
+              href="https://www.linkedin.com/in/nitish-narayanan-5b8202224/"
+              >Nitish Narayanan</a
+            >
+            and
+            <a
+              class="underline"
+              href="https://www.linkedin.com/in/jahnavi-gundakaram-43074a1b5/"
+              >Jahnavi Gundakaram</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <div class="w-fit mt-2 h-fit mx-auto">
+        <a
+          href="https://www.linkedin.com/company/ieee-cs-vit/?originalSubdomain=in"
+          ><img class="inline mx-2 w-8" src="images/linkedin.svg" alt=""
+        /></a>
+        <a href="https://www.instagram.com/ieeecs_vit/"
+          ><img class="inline mx-2 w-8" src="images/insta.svg" alt=""
+        /></a>
+      </div>
+      <p class="develop mx-auto w-fit my-2 text-white text-sm">
+        Developed by <span class="ieeecs"> IEEE Computer Society</span>
+      </p>
+      <a href="https://www.ieeecsvit.com/"
+        ><img class="w-28 mx-auto" src="images/ieeecs.png" alt=""
+      /></a>
+    </div>
+  </body>
 </html>
